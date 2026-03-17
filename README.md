@@ -68,6 +68,7 @@ Step 2 — Create All Tables
 Step 3 — Import All CSV Files
 ```sql
 .mode csv
+.headers on
 .import database/customers.csv Customers
 .import database/invoices.csv Invoice
 .import database/invoice_items.csv InvoiceLine
